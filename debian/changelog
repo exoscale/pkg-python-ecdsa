@@ -2,6 +2,7 @@ python-ecdsa (0.13-2~precise0+exo1) precise; urgency=medium
 
   * Backport to Precise.
     + Drop dependency on python-six, use embedded copy.
+    + Don't use dh-python.
 
  -- Vincent Bernat <bernat@debian.org>  Fri, 17 Jun 2016 17:11:11 +0200
 

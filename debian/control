@@ -8,8 +8,6 @@ Build-Depends:
  dh-python,
  python-all,
  python3-all,
- python-six (>= 1.2),
- python3-six (>= 1.2),
  openssl
 Homepage: https://github.com/warner/python-ecdsa
 Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-ecdsa/trunk/
@@ -23,8 +21,7 @@ Package: python-ecdsa
 Architecture: all
 Depends:
  ${misc:Depends},
- ${python:Depends},
- python-six (>= 1.2)
+ ${python:Depends}
 Description: ECDSA cryptographic signature library (Python 2)
  This is an easy-to-use implementation of ECDSA cryptography (Elliptic Curve
  Digital Signature Algorithm), implemented purely in Python.  With this library,
@@ -38,8 +35,7 @@ Package: python3-ecdsa
 Architecture: all
 Depends:
  ${misc:Depends},
- ${python3:Depends},
- python3-six (>= 1.2)
+ ${python3:Depends}
 Description: ECDSA cryptographic signature library (Python 3)
  This is an easy-to-use implementation of ECDSA cryptography (Elliptic Curve
  Digital Signature Algorithm), implemented purely in Python.  With this library,
